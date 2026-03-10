@@ -5,15 +5,15 @@ description: |
   View network connections, routing tables, and interface statistics
   in interactive or TSV/CSV formats.
   
-  **Requires x-cmd**: Use x-cmd skill to install and use x-cmd,
-  see https://x-cmd.com/llms.txt . Note: load x-cmd with `. ~/.x-cmd.root/X` before use.
+  **Dependency**: This is an x-cmd module. Install x-cmd first (see x-cmd skill for installation options).
+  see x-cmd skill for installation.
 
 license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
   author: Li Junhao
-  version: "0.0.1"
+  version: "1.0.0"
   category: x-cmd-extension
   tags: [x-cmd, network, netstat, connections, monitoring]
 ---
@@ -177,5 +177,4 @@ Data is cached in `~/.x-cmd.root/data/nets/latest/` for faster access.
 
 ## Related
 
-- [x-cmd nets module](https://x-cmd.com/mod/nets)
 - Native `netstat(8)` manual page
