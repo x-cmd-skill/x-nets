@@ -177,6 +177,5 @@ Data is cached in `~/.x-cmd.root/data/nets/latest/` for faster access.
 
 ## Related
 
-- [Back to x-cmd Skill](../../SKILL.md)
 - [x-cmd nets module](https://x-cmd.com/mod/nets)
 - Native `netstat(8)` manual page
